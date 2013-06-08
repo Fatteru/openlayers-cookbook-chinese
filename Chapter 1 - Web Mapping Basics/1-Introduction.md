@@ -1,13 +1,4 @@
-title: "Openlayers Cookbook(中文): Web Mapping Basics-Introduction"
-date: 2013-6-8 12:30:37
-tags: 
-- Openlayers Cookbook
-- Openlayers
-- map
-- layer
-- WebGIS
-categories:
----
+#Web Mapping Basics-Introduction#
 
 如同每段历史都有一个开始，每份食谱都是从调味料开始。
 
