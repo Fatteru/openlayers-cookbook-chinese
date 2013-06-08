@@ -1,4 +1,4 @@
-#**《Openlayers CookBook》中文翻译**#
+**《Openlayers CookBook》中文翻译**
 
 # Preface #
 
