@@ -24,7 +24,7 @@
 
 1、创建一个空的index.html文件，然后将下面代码添加进去。先不用理解具体的含义，后面会一步步详细介绍。
 
-{% codeblock lang:html %}
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,7 +62,7 @@
         <div id="rcp1_map" style="width: 100%; height: 100%;"></div>
     </body>
 </html>
-{% endcodeblock %}
+```
 
 2、在浏览器中查看index.html文件，你将看到一个全屏的地图，并且有一些地图控制按钮在左上角，如下图所示:
 
