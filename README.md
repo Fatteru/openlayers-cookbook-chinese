@@ -5,7 +5,7 @@
 # Chapter 1: Web Mapping Basics #
 
 1. [Introduction](http://gaodaojing.com/post/openlayers-cookbook-chapter-1-1)
-2. Creating a simple full screen map
+2. [Creating a simple full screen map](http://gaodaojing.com/post/openlayers-cookbook-chapter-1-2)
 3. Different ways to include OpenLayers
 4. Understanding base and non-base layers
 5. Avoiding the need of a base layer
