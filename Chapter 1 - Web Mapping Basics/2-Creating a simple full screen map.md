@@ -74,13 +74,13 @@
 
 在head部分，我们引入了OpenLayers的javascript库，如下所示:
 
-{% codeblock lang:html %}
+``` html
 <script type="text/javascript" src="http://openlayers.org/api/2.11/ OpenLayers.js"></script>
-{% endcodeblock %}
+```
 
 同时我们添加了一个Style，让文档充满整个屏幕如下所示：
 
-{% codeblock lang:html %}
+``` html
 <style>
     html, body {
         width: 100%;
@@ -89,23 +89,23 @@
         padding: 0;
     }
 </style>
-{% endcodeblock %}
+```
 
 在style元素后面有一些javascript代码，我们放在后面解释。
 
 在head部分后面就是body部分，body有一个`onload`事件，就是说在body部分的内容加载完毕后自动执行`init()`函数。
 
-{% codeblock lang:html %}
+``` html
 <body onload="init()">
-{% endcodeblock %}
+```
 
 最后，在body部分我们添加了一个div，并且将其id设置为rcp1_map,这个元素就是Openlayers用来初始化地图的。
 
 同样，我们设置这个元素的样式是其充满父级的全部空间：
 
-{% codeblock lang:html %}
+``` html
 <div id="rcp1_map" style="width: 100%; height: 100%;"></div>
-{% endcodeblock %}
+```
 
 现在我们来看看在head部分script元素内容。
 
@@ -113,28 +113,28 @@
 
 首先我们创建了一个Openlayers.Map对象，也就是渲染在前面提到的div元素，通过DOM元素的id初始化实现的。
 
-{% codeblock lang:js %}
+``` js
 var map = new OpenLayers.Map("rcp1_map");
-{% endcodeblock %}
+```
 
 接下来，我们创建了一个栅格图层来显示OpenStreetMaps中的影像。
 
-{% codeblock lang:js %}
+``` js
 // Create an OpenStreeMap raster layer and add to the map
 var osm = new OpenLayers.Layer.OSM();
-{% endcodeblock %}
+```
 
 创建图层后我们就将其添加到map中：
 
-{% codeblock lang:js %}
+``` js
 map.addLayer(osm);
-{% endcodeblock %}
+```
 
 最后，我们将map放大到最大可视范围：
 
-{% codeblock lang:js %}
+``` js
 map.zoomToMaxExtent();
-{% endcodeblock %}
+```
 
 **更多...**
 
@@ -150,7 +150,7 @@ map.zoomToMaxExtent();
 
 如果你查看了此章节的源代码，你会发现代码略微有些不同的地方：
 
-{% codeblock lang:html %}
+``` html
 <!-- Map DOM element -->
 <div id="ch1_simple_map" style="width: 100%; height: 95%;"></div>
 
@@ -167,7 +167,7 @@ map.zoomToMaxExtent();
     // Set view to zoom maximum map extent
     map.zoomToMaxExtent();
 </script>
-{% endcodeblock %}
+```
 
 显而易见的，它包含了我们之前所描述的主要代码。拥有一个div元素来容纳地图，和一个包含所有javascript代码的script元素。
 
