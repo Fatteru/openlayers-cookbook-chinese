@@ -1,13 +1,13 @@
 # 《Openlayers CookBook》中文翻译
 
-**由于Openlayers 3中api变化比较大，原来《Openlayers CookBook》已经不在适用，故不再继续翻译《Openlayers CookBook》，针对Openlayers 3的教程请查看[openlayers-tutorial](https://github.com/mapapi/openlayers-tutorial)**
+**由于Openlayers 3中api变化比较大，原来《Openlayers CookBook》已经不在适用，故不再继续翻译《Openlayers CookBook》，针对Openlayers 3的教程请查看[openlayers-tutorial](https://github.com/mapapi/openlayers-tutorial)。**
 
 # Preface #
 
 # Chapter 1: Web Mapping Basics #
 
-1. [Introduction](https://github.com/gaodaojing/openlayers-cookbook-chinese/blob/master/Chapter%201%20-%20Web%20Mapping%20Basics/1-Introduction.md)
-2. [Creating a simple full screen map](https://github.com/gaodaojing/openlayers-cookbook-chinese/blob/master/Chapter%201%20-%20Web%20Mapping%20Basics/2-Creating%20a%20simple%20full%20screen%20map.md)
+1. [Introduction](https://github.com/Geodesigner/openlayers-cookbook-chinese/blob/master/Chapter%201%20-%20Web%20Mapping%20Basics/1-Introduction.md)
+2. [Creating a simple full screen map](https://github.com/Geodesigner/openlayers-cookbook-chinese/blob/master/Chapter%201%20-%20Web%20Mapping%20Basics/2-Creating%20a%20simple%20full%20screen%20map.md)
 3. Different ways to include OpenLayers
 4. Understanding base and non-base layers
 5. Avoiding the need of a base layer
