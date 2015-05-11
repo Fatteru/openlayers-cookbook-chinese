@@ -1,4 +1,6 @@
-**《Openlayers CookBook》中文翻译**
+# 《Openlayers CookBook》中文翻译
+
+** 由于Openlayers 3中api变化比较大，原来《Openlayers CookBook》已经不在适用，故不再继续翻译《Openlayers CookBook》，针对Openlayers 3的教程请查看[openlayers-tutorial](https://github.com/mapapi/openlayers-tutorial) **
 
 # Preface #
 
